@@ -1,0 +1,63 @@
+{% load static %}
+
+
+<section>
+    <div id="contact" class="text-center">
+        <div class="container text-center">
+            <div class="col-md-4">
+                <h3>Бронювання</h3>
+                <div class="contact-item">
+                    <p>Телефонуйте</p>
+                    <p>(067) 123-45678</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h3>Адреса</h3>
+                <div class="contact-item">
+                    <p>Україна, м. Київ,</p>
+                    <p>вул. Хрещатик, буд. 33</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h3>Години роботи</h3>
+                <div class="contact-item">
+                    <p>ПН-ЧТ: 10:00 - 23:00</p>
+                    <p>ПТ-НД: 11:00 - 02:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Надішліть нам повідомлення</h3>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" id="name" class="form-control" placeholder="Ім'я"
+                                       required="required">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="email" id="email" class="form-control"
+                                       placeholder="Електронна пошта" required="required">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4"
+                    placeholder="Повідомлення" required></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div id="success"></div>
+                    <button type="submit" class="btn btn-custom btn-lg">Відправити повідомлення
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
