@@ -3,9 +3,6 @@ from django.http import HttpResponse
 
 
 def categories(request):
-    print(request)
-    print(dir(request))
-
     items = ['Холодні страви', 'Гарячі страви', 'Напої', 'Ковбаси']
     res = ''
     for item in items:
