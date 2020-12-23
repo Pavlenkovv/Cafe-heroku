@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66dacaef-e350-4de9-8cfc-362347cca0a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/events/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/templates/events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/templates/event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guesto_cafe/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/guesto_cafe/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guesto_cafe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/guesto_cafe/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../django_movie" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -150,7 +142,7 @@
       <workItem from="1608296721899" duration="2036000" />
       <workItem from="1608638916533" duration="254000" />
       <workItem from="1608639272521" duration="69000" />
-      <workItem from="1608639354868" duration="2713000" />
+      <workItem from="1608639354868" duration="8139000" />
     </task>
     <task id="LOCAL-00001" summary="index.html ver.1">
       <created>1607975113643</created>
@@ -194,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608639624354</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add events.html">
+      <created>1608642133256</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608642133256</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +207,8 @@
     <MESSAGE value="add apps" />
     <MESSAGE value="-div" />
     <MESSAGE value="start work 22.12.2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="start work 22.12.2020" />
+    <MESSAGE value="add events.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add events.html" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/guesto_cafe$manage.coverage" NAME="manage Coverage Results" MODIFIED="1608140490139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
