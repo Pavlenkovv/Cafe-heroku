@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66dacaef-e350-4de9-8cfc-362347cca0a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/events/templates/event.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guesto_cafe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/guesto_cafe/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guesto_cafe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/guesto_cafe/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu/templates/menu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,7 @@
       <recent name="D:\Python\guesto_cafe\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.guesto_cafe">
+  <component name="RunManager" selected="Python.manage">
     <configuration name="127.0.0.1:8000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://127.0.0.1:8000/">
       <method v="2" />
     </configuration>
@@ -143,6 +146,7 @@
       <workItem from="1608638916533" duration="254000" />
       <workItem from="1608639272521" duration="69000" />
       <workItem from="1608639354868" duration="8139000" />
+      <workItem from="1608742252025" duration="7823000" />
     </task>
     <task id="LOCAL-00001" summary="index.html ver.1">
       <created>1607975113643</created>
@@ -193,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608642133256</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="23-12-2020">
+      <created>1608742273257</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608742273257</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,9 +219,10 @@
     <MESSAGE value="-div" />
     <MESSAGE value="start work 22.12.2020" />
     <MESSAGE value="add events.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add events.html" />
+    <MESSAGE value="23-12-2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="23-12-2020" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/guesto_cafe$manage.coverage" NAME="manage Coverage Results" MODIFIED="1608140490139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/guesto_cafe$manage.coverage" NAME="manage Coverage Results" MODIFIED="1608749956054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
