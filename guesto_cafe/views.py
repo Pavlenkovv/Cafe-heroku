@@ -4,11 +4,19 @@ from menu.models import Category, Dish
 
 
 def get_main_page(request):
-    category = Category.objects.all().order_by('category_order')
-    dish = Dish.objects.all()
+    category = Category.objects.filter(is_visible=True).order_by('category_order')
+
+    for item in category:
+        item.dishes = Dish.objects.filter(category=item.id)
+
+    special_menu = Dish.objects.filter(category__title='Акції')
+
+    # dish = Dish.objects.all().order_by('category')
+    # dish = Dish.objects.all().filter(category=category.title)
 
     context = {'title': 'Густо кафе',
                'about_title': 'Наша історія',
                'categories': category,
-               'dishes': dish}
+               'special_menu': special_menu
+               }
     return render(request, 'index.html', context=context)
