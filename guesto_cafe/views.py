@@ -11,9 +11,6 @@ def get_main_page(request):
 
     special_menu = Dish.objects.filter(category__title='Акції')
 
-    # dish = Dish.objects.all().order_by('category')
-    # dish = Dish.objects.all().filter(category=category.title)
-
     context = {'title': 'Густо кафе',
                'about_title': 'Наша історія',
                'categories': category,

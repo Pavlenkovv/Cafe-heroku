@@ -2,10 +2,10 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Dish
 
+def dish_detail(request, dish_id):
+    dish = Dish.objects.get(pk=dish_id)
+    return HttpResponse(f'<h1>Назва: {dish.title}</h1><h1>Ціна: {dish.price}</h1><h1>Опис: {dish.description}</h1>')
 
-def categories(request, dish_detail):
-    items = ['Холодні страви', 'Гарячі страви', 'Напої', 'Ковбаси']
-    res = ''
-    for item in items:
-        res += f'<div><h2>{item}</h2></div>'
-    return HttpResponse(res)
+def list_categories(request, dish_detail):
+    context = {}
+    return render(request, 'index.html', context=context)
