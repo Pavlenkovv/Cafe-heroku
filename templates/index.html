@@ -60,11 +60,9 @@
                 <div class="row">
                     <div class="intro-text">
                         <h1>Густо</h1>
-                        <p>
-                            {{ res_info.title }}
-                            {{ res_info.phone }}
-                        </p>
-                        {#<p>Бронювання: (067) 123-45678</p>#}
+                        <p>{% block booking %}
+                            {% include 'booking.html' %}
+                        {% endblock %}</p>
                     </div>
                 </div>
             </div>
