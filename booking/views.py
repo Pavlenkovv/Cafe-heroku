@@ -1,10 +1,10 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 from .models import Booking
 
-def reserve(request):
 
-    rest = Booking.objects.all()
-    # cont = {'res':rest}
+def reserve_info(request):
 
-    return HttpResponse(f'{rest}')
+    res_info = Booking.objects.get(pk=1)
+    cont = {'res_info': res_info}
+
+    return render(request, 'index.html', context=cont)
