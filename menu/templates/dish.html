@@ -69,9 +69,29 @@
         </div>
     </div>
 </header>
-{% block menu_features %}
-    {% include 'menu_features.html' %}
-{% endblock %}
+
+<section id="dish">
+    <div class="container">
+        <div id="row">
+            <div class="col-md-6">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="section-title">
+                        <h2>{{ dish.title }}</h2>
+                    </div>
+                    <p>{{ dish.description }}</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="team-img"><img src={{ dish.photo.url }} width="800"  alt="..."></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{#{% block menu_features %}#}
+{#    {% include 'menu_features.html' %}#}
+{#{% endblock %}#}
 
 
 

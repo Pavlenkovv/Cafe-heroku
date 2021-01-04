@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66dacaef-e350-4de9-8cfc-362347cca0a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/menu/templates/dish.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/templates/dish.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu/templates/dish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +160,7 @@
       <workItem from="1609699065323" duration="6275000" />
       <workItem from="1609766256016" duration="2684000" />
       <workItem from="1609771964290" duration="473000" />
-      <workItem from="1609772945485" duration="788000" />
+      <workItem from="1609772945485" duration="3032000" />
     </task>
     <task id="LOCAL-00001" summary="index.html ver.1">
       <created>1607975113643</created>
@@ -266,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609707646049</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="start dish.html">
+      <created>1609773779113</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609773779113</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,17 +305,18 @@
     <MESSAGE value="Start work(29-12-2020) after lec 28-12-2020" />
     <MESSAGE value="booking in db" />
     <MESSAGE value="booking and team done" />
-    <option name="LAST_COMMIT_MESSAGE" value="booking and team done" />
+    <MESSAGE value="start dish.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="start dish.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609702211059">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609702211059" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1609707644529">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1609773776174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609707644529" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609773776174" />
     <state width="1537" height="71" key="GridCell.Tab.0.bottom" timestamp="1609773427275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -340,10 +349,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="138" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609715963037" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1609707647155">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1609773781377">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609707647155" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609773781377" />
     <state x="425" y="66" width="670" height="676" key="search.everywhere.popup" timestamp="1609707411402">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
