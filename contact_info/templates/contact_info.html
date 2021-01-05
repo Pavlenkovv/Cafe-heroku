@@ -1,5 +1,3 @@
-{% load static %}
-
 <section id="contact" class="text-center">
     <div class="container text-center">
         <div class="col-md-4">
@@ -29,31 +27,28 @@
             <h3>Надішліть нам повідомлення</h3>
         </div>
         <div class="col-md-8 col-md-offset-2">
-            <form name="sentMessage" id="contactForm" novalidate>
+            <form name="sentMessage" id="contactForm" novalidate action="" method="post">
+                {% csrf_token %} {# важливо #}
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" id="name" class="form-control" placeholder="Ім'я"
-                                   required="required">
+                            {{ form.user_name }}
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="email" id="email" class="form-control"
-                                   placeholder="Електронна пошта" required="required">
+                            {{ form.user_email }}
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4"
-                    placeholder="Повідомлення" required></textarea>
+                    {{ form.message }}
                     <p class="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" class="btn btn-custom btn-lg">Відправити повідомлення
-                </button>
+                <button type="submit" class="btn btn-custom btn-lg">Відправити повідомлення</button>
             </form>
         </div>
     </div>

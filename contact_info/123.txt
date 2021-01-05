@@ -1,0 +1,8 @@
+                            <input type="text" id="name" class="form-control" placeholder="Ім'я"
+                                   required="required">
+
+                                   <input type="email" id="email" class="form-control"
+                                   placeholder="Електронна пошта" required="required">
+
+                                   <textarea name="message" id="message" class="form-control" rows="4"
+                    placeholder="Повідомлення" required></textarea>
