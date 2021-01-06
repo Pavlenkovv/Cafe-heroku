@@ -1,8 +1,9 @@
-from django.shortcuts import render
 from django.http import HttpResponse
-from .models import Dish
+from django.shortcuts import render
+
 from booking.models import Booking
-from .forms import CategoryForm
+from .forms import CategoryForm, DishForm
+from .models import Dish
 
 
 def dish_detail(request, dish_id):
@@ -33,7 +34,15 @@ def add_category(request):
             return HttpResponse('<h1>Add Success</h1>')
     else:
         form = CategoryForm()
-        return render(request, 'add_category.html', context={'form': form})
+    return render(request, 'add_category.html', context={'form': form})
 
 
-# def add_dish(request):
+def add_dish(request):
+    if request.method == 'POST':
+        form = DishForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return HttpResponse('<h1>Add Success</h1>')
+    else:
+        form = DishForm()
+    return render(request, 'add_dish.html', context={'form': form})
