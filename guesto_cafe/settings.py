@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'gallery',
     'menu',
     'team',
-    'events'
+    'events',
+    'user_messages',
 ]
 
 MIDDLEWARE = [
