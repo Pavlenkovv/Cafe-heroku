@@ -18,12 +18,17 @@ from django.urls import path, include
 from .views import get_main_page
 from guesto_cafe import settings
 from django.conf.urls.static import static
+from accounts.views import register_view, login_view, logout_view
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', get_main_page),
+    path('login/', login_view, name='login'),
+    path('logout/', logout_view, name='logout'),
+    path('register/', register_view, name='register'),
     path('menu/', include(('menu.urls', 'menu'))),
+
     path('messages/', include(('user_messages.urls', 'user_messages'))),
 ]
 

@@ -1,11 +1,18 @@
+from django.contrib import messages
+from django.contrib.auth.decorators import login_required, user_passes_test
 from django.contrib.messages.views import SuccessMessageMixin
 from django.shortcuts import render, HttpResponse
 from django.urls import reverse_lazy
 from django.views.generic import DeleteView, UpdateView, CreateView
-from django.contrib import messages
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+from braces.views import GroupRequiredMixin
 
 from booking.models import Booking
 from .forms import *
+
+
+def is_member(user):
+    return user.groups.filter(name='manager').exists() or user.is_staff
 
 
 def dish_detail(request, dish_id):
@@ -48,12 +55,16 @@ def add_dish(request):
     return render(request, 'add_dish.html', context={'form': form})
 
 
+@login_required(login_url='/login/')
+@user_passes_test(is_member)
 def categories_view(request):
     items = Category.objects.all().order_by('category_order')
     return render(request, 'categories_view.html', context={'items': items})
 
 
-class CategoryUpdateView(SuccessMessageMixin, UpdateView):
+class CategoryUpdateView(LoginRequiredMixin, GroupRequiredMixin, SuccessMessageMixin, UpdateView):
+    login_url = reverse_lazy('login')
+    group_required = ['manager', 'admin']
     model = Category
     form_class = CategoryForm
     template_name = 'category_update.html'
@@ -61,7 +72,9 @@ class CategoryUpdateView(SuccessMessageMixin, UpdateView):
     success_message = 'Категорія успішно відкоригована!'
 
 
-class CategoryAddView(SuccessMessageMixin, CreateView):
+class CategoryAddView(LoginRequiredMixin, GroupRequiredMixin, SuccessMessageMixin, CreateView):
+    login_url = reverse_lazy('login')
+    group_required = ['manager', 'admin']
     model = Category
     form_class = CategoryForm
     template_name = 'category_add.html'
@@ -69,7 +82,9 @@ class CategoryAddView(SuccessMessageMixin, CreateView):
     success_message = 'Категорія успішно створена!'
 
 
-class CategoryDeleteView(DeleteView):
+class CategoryDeleteView(LoginRequiredMixin, GroupRequiredMixin, DeleteView):
+    login_url = reverse_lazy('login')
+    group_required = ['manager', 'admin']
     model = Category
     success_url = reverse_lazy('menu:categories_view')
 
@@ -78,20 +93,26 @@ class CategoryDeleteView(DeleteView):
         return self.post(request, *args, **kwargs)
 
 
-
+@login_required(login_url='/login/')
+@user_passes_test(is_member)
 def dishes(request):
     items = Dish.objects.all()
     return render(request, 'dishes_view.html', context={'items': items})
 
 
-class DishUpdateView(SuccessMessageMixin, UpdateView):
+class DishUpdateView(LoginRequiredMixin, GroupRequiredMixin, SuccessMessageMixin, UpdateView):
+    login_url = reverse_lazy('login')
+    group_required = ['manager', 'admin']
     model = Dish
     form_class = DishForm
     template_name = 'dish_update.html'
     success_url = reverse_lazy('menu:dishes')
     success_message = 'Страва успішно відкоригована!'
 
-class DishAddView(SuccessMessageMixin, CreateView):
+
+class DishAddView(LoginRequiredMixin, GroupRequiredMixin, SuccessMessageMixin, CreateView):
+    login_url = reverse_lazy('login')
+    group_required = ['manager', 'admin']
     model = Dish
     form_class = DishForm
     template_name = 'dish_add.html'
@@ -99,11 +120,12 @@ class DishAddView(SuccessMessageMixin, CreateView):
     success_message = 'Страва успішно створена!'
 
 
-class DishDeleteView(DeleteView):
+class DishDeleteView(LoginRequiredMixin, GroupRequiredMixin, DeleteView):
+    login_url = reverse_lazy('login')
+    group_required = ['manager', 'admin']
     model = Dish
     success_url = reverse_lazy('menu:dishes')
 
     def get(self, request, *args, **kwargs):
         messages.success(request, 'Страва успішно видалена!')
         return self.post(request, *args, **kwargs)
-

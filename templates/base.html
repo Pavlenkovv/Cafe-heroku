@@ -52,13 +52,15 @@
                 <li><a href="/#contact" class="page-scroll">Контакти</a></li>
             </ul>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="/menu/categories" class="page-scroll">Категорія</a></li>
-                <li><a href="/menu/dishes" class="page-scroll">Страви</a></li>
-                <li><a href="/messages" class="page-scroll">Повідомлення</a></li>
-            </ul>
-        </div>
+        {% if 'manager' in user.groups.all.0.name or user.is_staff %}
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="/menu/categories" class="page-scroll">Категорії</a></li>
+                    <li><a href="/menu/dishes" class="page-scroll">Страви</a></li>
+                    <li><a href="/messages" class="page-scroll">Повідомлення</a></li>
+                </ul>
+            </div>
+        {% endif %}
     </div>
 </nav>
 <header id="header">

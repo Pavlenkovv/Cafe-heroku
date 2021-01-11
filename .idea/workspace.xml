@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66dacaef-e350-4de9-8cfc-362347cca0a6" name="Default Changelist" comment="all work well">
+    <list default="true" id="66dacaef-e350-4de9-8cfc-362347cca0a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/accounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/register_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/braces/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/braces/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/braces/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/braces/views/_access.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/braces/views/_ajax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/braces/views/_forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/braces/views/_other.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/braces/views/_queries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_braces-1.14.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_braces-1.14.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_braces-1.14.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_braces-1.14.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_braces-1.14.0.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_braces-1.14.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_braces-1.14.0.dist-info/pbr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_braces-1.14.0.dist-info/top_level.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guesto_cafe/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/guesto_cafe/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guesto_cafe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/guesto_cafe/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_messages/templates/messages.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_messages/templates/messages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_messages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_messages/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +86,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../gusto_manager_oleg" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -178,7 +209,9 @@
       <workItem from="1610295835952" duration="8966000" />
       <workItem from="1610315888012" duration="48000" />
       <workItem from="1610315961400" duration="34000" />
-      <workItem from="1610368125293" duration="2847000" />
+      <workItem from="1610368125293" duration="2913000" />
+      <workItem from="1610383711609" duration="249000" />
+      <workItem from="1610384531433" duration="6928000" />
     </task>
     <task id="LOCAL-00001" summary="index.html ver.1">
       <created>1607975113643</created>
@@ -320,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610307680939</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="all works well. 11.01.2011. 16:30">
+      <created>1610375466600</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1610375466600</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,43 +396,44 @@
     <MESSAGE value="start form add_dish" />
     <MESSAGE value="done form add_dish" />
     <MESSAGE value="all work well" />
-    <option name="LAST_COMMIT_MESSAGE" value="all work well" />
+    <MESSAGE value="all works well. 11.01.2011. 16:30" />
+    <option name="LAST_COMMIT_MESSAGE" value="all works well. 11.01.2011. 16:30" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610221578351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610221578351" />
-    <state x="84" y="0" width="1272" height="824" key="CommitChangelistDialog2" timestamp="1610372422593">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="105" y="94" width="1272" height="824" key="CommitChangelistDialog2" timestamp="1610375465102">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="84" y="0" width="1272" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610372422593" />
-    <state x="105" y="94" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610307679162" />
+    <state x="105" y="94" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610375465102" />
     <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1610372476327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610372476327" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610297770707" />
-    <state width="1877" height="235" key="GridCell.Tab.0.bottom" timestamp="1610374592078">
+    <state width="825" height="74" key="GridCell.Tab.0.bottom" timestamp="1610391066552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610372534460" />
-    <state width="1877" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610374592078" />
-    <state width="1877" height="235" key="GridCell.Tab.0.center" timestamp="1610374592078">
+    <state width="825" height="74" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610391066552" />
+    <state width="825" height="74" key="GridCell.Tab.0.center" timestamp="1610391066551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="235" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610372534459" />
-    <state width="1877" height="235" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610374592078" />
-    <state width="1877" height="235" key="GridCell.Tab.0.left" timestamp="1610374592078">
+    <state width="825" height="74" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610391066551" />
+    <state width="825" height="74" key="GridCell.Tab.0.left" timestamp="1610391066551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="235" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610372534458" />
-    <state width="1877" height="235" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610374592078" />
-    <state width="1877" height="235" key="GridCell.Tab.0.right" timestamp="1610374592078">
+    <state width="825" height="74" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610391066551" />
+    <state width="825" height="74" key="GridCell.Tab.0.right" timestamp="1610391066551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="235" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610372534459" />
-    <state width="1877" height="235" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610374592078" />
+    <state width="825" height="74" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610391066551" />
     <state width="1877" height="467" key="GridCell.Tab.1.bottom" timestamp="1610215087494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -409,14 +450,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="467" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610215087494" />
-    <state x="0" y="168" key="SettingsEditor" timestamp="1610303742975">
+    <state x="888" y="330" key="SettingsEditor" timestamp="1610390863928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610303742975" />
-    <state x="72" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610307683597">
+    <state x="888" y="330" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610390863928" />
+    <state x="72" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610375468845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610307683597" />
+    <state x="72" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610375468845" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610210301649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
