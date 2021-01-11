@@ -57,7 +57,7 @@ class CategoryUpdateView(SuccessMessageMixin, UpdateView):
     model = Category
     form_class = CategoryForm
     template_name = 'category_update.html'
-    success_url = reverse_lazy('menu:categories')
+    success_url = reverse_lazy('menu:categories_view')
     success_message = 'Категорія успішно відкоригована!'
 
 
@@ -65,13 +65,13 @@ class CategoryAddView(SuccessMessageMixin, CreateView):
     model = Category
     form_class = CategoryForm
     template_name = 'category_add.html'
-    success_url = reverse_lazy('menu:categories')
+    success_url = reverse_lazy('menu:categories_view')
     success_message = 'Категорія успішно створена!'
 
 
 class CategoryDeleteView(DeleteView):
     model = Category
-    success_url = reverse_lazy('menu:categories')
+    success_url = reverse_lazy('menu:categories_view')
 
     def get(self, request, *args, **kwargs):
         messages.success(request, 'Категорія успішно видалена!')
