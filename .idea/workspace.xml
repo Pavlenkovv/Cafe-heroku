@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66dacaef-e350-4de9-8cfc-362347cca0a6" name="Default Changelist" comment="13-10-2021 v.4">
+    <list default="true" id="66dacaef-e350-4de9-8cfc-362347cca0a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guesto_cafe/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/guesto_cafe/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +56,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Python\guesto_cafe\menu\templates" />
-      <recent name="D:\Python\guesto_cafe\static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Python\guesto_cafe\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python\guesto_cafe\static\fonts" />
+      <recent name="D:\Python\guesto_cafe\menu\templates" />
+      <recent name="D:\Python\guesto_cafe\static" />
     </key>
   </component>
   <component name="RunManager" selected="Django Server.guesto_cafe">
@@ -182,7 +184,7 @@
       <workItem from="1610472171141" duration="3319000" />
       <workItem from="1610526109857" duration="4905000" />
       <workItem from="1610543453363" duration="2389000" />
-      <workItem from="1610555188009" duration="12071000" />
+      <workItem from="1610555188009" duration="16076000" />
     </task>
     <task id="LOCAL-00001" summary="index.html ver.1">
       <created>1607975113643</created>
@@ -394,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610570483921</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="13-10-2021 v.5">
+      <created>1610571496194</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1610571496194</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,7 +424,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="index.html ver.1" />
     <MESSAGE value="&lt;section&gt; done" />
     <MESSAGE value="+.gitignore" />
     <MESSAGE value="add apps" />
@@ -440,7 +448,8 @@
     <MESSAGE value="13-10-2021 v.2" />
     <MESSAGE value="13-10-2021 v.3" />
     <MESSAGE value="13-10-2021 v.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="13-10-2021 v.4" />
+    <MESSAGE value="13-10-2021 v.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="13-10-2021 v.5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1610527407313">
@@ -460,16 +469,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="89" key="#guesto_cafe/0.0.1920.1040@0.0.1920.1040" timestamp="1610555098266" />
-    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2" timestamp="1610570517209">
+    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2" timestamp="1610571492801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="84" y="0" width="1272" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610372422593" />
-    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610570517209" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610570975571">
+    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610571492801" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610574944737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610372476327" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610570975571" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610574944737" />
     <state width="527" height="103" key="GridCell.Tab.0.bottom" timestamp="1610558185711">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -520,10 +529,10 @@
     <state x="538" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610474668460" />
     <state x="970" y="332" width="916" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610570203537" />
     <state x="970" y="332" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1610558173637" />
-    <state x="72" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610569550232">
+    <state x="72" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610571497818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610569550232" />
+    <state x="72" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610571497818" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610531346795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
