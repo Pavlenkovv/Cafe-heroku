@@ -20,19 +20,6 @@ class UserLoginForm(forms.Form):
         return super().clean(*args, **kwargs)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 class UserRegistrationForm(forms.ModelForm):
     username = forms.CharField(widget=forms.TextInput())
     password = forms.CharField(widget=forms.PasswordInput())

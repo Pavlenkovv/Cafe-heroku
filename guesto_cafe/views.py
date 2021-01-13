@@ -1,8 +1,9 @@
 from django.shortcuts import render, redirect
-from menu.models import Category, Dish
-from team.models import Team
+
 from booking.models import Booking
 from contact_info.forms import UserMessagesForm
+from menu.models import Category, Dish
+from team.models import Team
 
 
 def get_main_page(request):
@@ -11,7 +12,6 @@ def get_main_page(request):
         if form.is_valid():
             form.save()
             return redirect('/')
-
 
     form = UserMessagesForm()
     category = Category.objects.filter(is_visible=True).order_by('category_order')
@@ -27,6 +27,6 @@ def get_main_page(request):
                'special_menu': special_menu,
                'team_text': team_text,
                'reserve_info': reserve_info,
-               'form':form,
+               'form': form,
                }
     return render(request, 'index.html', context=context)

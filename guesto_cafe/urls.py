@@ -28,10 +28,8 @@ urlpatterns = [
     path('logout/', logout_view, name='logout'),
     path('register/', register_view, name='register'),
     path('menu/', include(('menu.urls', 'menu'))),
-
     path('messages/', include(('user_messages.urls', 'user_messages'))),
 ]
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
