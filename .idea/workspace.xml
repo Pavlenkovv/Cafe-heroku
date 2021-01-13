@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="66dacaef-e350-4de9-8cfc-362347cca0a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guesto_cafe/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/guesto_cafe/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +182,7 @@
       <workItem from="1610472171141" duration="3319000" />
       <workItem from="1610526109857" duration="4905000" />
       <workItem from="1610543453363" duration="2389000" />
-      <workItem from="1610555188009" duration="5483000" />
+      <workItem from="1610555188009" duration="6328000" />
     </task>
     <task id="LOCAL-00001" summary="index.html ver.1">
       <created>1607975113643</created>
@@ -353,7 +352,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610554928028</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="13-10-2021">
+      <created>1610561844087</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1610561844087</updated>
+    </task>
+    <task id="LOCAL-00026" summary="13-10-2021">
+      <created>1610561870615</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610561870615</updated>
+    </task>
+    <task id="LOCAL-00027" summary="13-10-2021">
+      <created>1610562095188</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1610562095188</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,11 +432,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="89" key="#guesto_cafe/0.0.1920.1040@0.0.1920.1040" timestamp="1610555098266" />
-    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2" timestamp="1610554926242">
+    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2" timestamp="1610562094075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="84" y="0" width="1272" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610372422593" />
-    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610554926242" />
+    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610562094075" />
     <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1610372476327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -472,10 +492,10 @@
     <state x="538" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610474668460" />
     <state x="970" y="332" width="916" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610557912253" />
     <state x="970" y="332" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1610558173637" />
-    <state x="72" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610554932148">
+    <state x="72" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610562097328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610554932148" />
+    <state x="72" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610562097328" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610531346795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
