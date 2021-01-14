@@ -15,6 +15,11 @@ from pathlib import Path
 
 import dj_database_url
 
+
+import django_heroku
+django_heroku.settings(locals())
+
+
 DB_NAME = os.environ.get('DB_NAME')
 DB_PASSWORD = os.environ.get('DB_PASSWORD')
 DB_HOST = os.environ.get('DB_HOST')

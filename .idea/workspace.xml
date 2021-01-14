@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66dacaef-e350-4de9-8cfc-362347cca0a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guesto_cafe/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/guesto_cafe/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guesto_cafe/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/guesto_cafe/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +185,7 @@
       <workItem from="1610543453363" duration="2389000" />
       <workItem from="1610555188009" duration="18667000" />
       <workItem from="1610618926141" duration="1229000" />
-      <workItem from="1610620181940" duration="2280000" />
+      <workItem from="1610620181940" duration="2585000" />
     </task>
     <task id="LOCAL-00001" summary="index.html ver.1">
       <created>1607975113643</created>
@@ -440,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610620304142</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="13-10-2021 v.11">
+      <created>1610622644752</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1610622644752</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="start work 22.12.2020" />
     <MESSAGE value="add events.html" />
     <MESSAGE value="23-12-2020" />
     <MESSAGE value="after lec 13. 27-12-2020" />
@@ -486,7 +491,8 @@
     <MESSAGE value="13-10-2021 v.7" />
     <MESSAGE value="13-10-2021 v.8" />
     <MESSAGE value="13-10-2021 v.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="13-10-2021 v.9" />
+    <MESSAGE value="13-10-2021 v.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="13-10-2021 v.11" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1610527407313">
@@ -506,11 +512,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="89" key="#guesto_cafe/0.0.1920.1040@0.0.1920.1040" timestamp="1610555098266" />
-    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2" timestamp="1610620297499">
+    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2" timestamp="1610622639783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="84" y="0" width="1272" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610372422593" />
-    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610620297499" />
+    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610622639783" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610620693777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -566,10 +572,10 @@
     <state x="538" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610474668460" />
     <state x="943" y="206" width="916" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610622100386" />
     <state x="970" y="332" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1610558173637" />
-    <state x="72" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610620307885">
+    <state x="72" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610622648528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610620307885" />
+    <state x="72" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610622648528" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610618997683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
