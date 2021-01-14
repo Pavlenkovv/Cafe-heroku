@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66dacaef-e350-4de9-8cfc-362347cca0a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guesto_cafe/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/guesto_cafe/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cafe_local" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -190,6 +190,7 @@
       <workItem from="1610631647052" duration="152000" />
       <workItem from="1610631892498" duration="247000" />
       <workItem from="1610632465511" duration="2456000" />
+      <workItem from="1610659002909" duration="1243000" />
     </task>
     <task id="LOCAL-00001" summary="index.html ver.1">
       <created>1607975113643</created>
@@ -485,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610632517289</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="14-10-2021 v.16">
+      <created>1610659022038</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1610659022039</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +514,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Start work(29-12-2020) after lec 28-12-2020" />
     <MESSAGE value="booking in db" />
     <MESSAGE value="booking and team done" />
     <MESSAGE value="start dish.html" />
@@ -531,7 +538,8 @@
     <MESSAGE value="14-10-2021 v.13" />
     <MESSAGE value="14-10-2021 v.14" />
     <MESSAGE value="14-10-2021 v.15" />
-    <option name="LAST_COMMIT_MESSAGE" value="14-10-2021 v.15" />
+    <MESSAGE value="14-10-2021 v.16" />
+    <option name="LAST_COMMIT_MESSAGE" value="14-10-2021 v.16" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1610527407313">
@@ -551,11 +559,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="89" key="#guesto_cafe/0.0.1920.1040@0.0.1920.1040" timestamp="1610555098266" />
-    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2" timestamp="1610632515627">
+    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2" timestamp="1610659019373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="84" y="0" width="1272" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610372422593" />
-    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610632515627" />
+    <state x="105" y="94" width="1367" height="858" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610659019373" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1610623332861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -615,10 +623,10 @@
     <state x="538" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610474668460" />
     <state x="943" y="206" width="916" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610623364761" />
     <state x="970" y="332" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1610558173637" />
-    <state x="72" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610632520485">
+    <state x="72" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610659024835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610632520485" />
+    <state x="72" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610659024835" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610618997683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
