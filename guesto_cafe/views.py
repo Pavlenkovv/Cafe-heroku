@@ -21,7 +21,7 @@ def get_main_page(request):
     team_text = Team.objects.get(pk=1)
     reserve_info = Booking.objects.get(pk=1)
 
-    context = {'title': 'Густо кафе',
+    context = {'title': 'Gusto cafe',
                'about_title': 'Наша історія',
                'categories': category,
                'special_menu': special_menu,
