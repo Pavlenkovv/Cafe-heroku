@@ -19,7 +19,7 @@ def dish_detail(request, dish_id):
     dish = Dish.objects.get(pk=dish_id)
     reserve_info = Booking.objects.get(pk=1)
     special_menu = Dish.objects.filter(category__title='Акції')
-    context = {'title': 'Густо кафе',
+    context = {'title': 'Gusto cafe',
                'dish': dish,
                'reserve_info': reserve_info,
                'special_menu': special_menu
